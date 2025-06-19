@@ -12,7 +12,7 @@
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341234/GJPO-059_R2_kkwqp1.jpg",
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341239/GJPO-059_R3_y5hyho.jpg"
     ],
-    "price": 2500,
+    "price": 25000,
     "discountPercentage": 10,
     "weight": 3.5,
     "imageID": "DR001",
@@ -32,7 +32,7 @@
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341344/GJLR-212_R2_dk3bal.jpg",
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341350/GJLR-212_R3_fxic38.jpg"
     ],
-    "price": 1800,
+    "price": 18000,
     "discountPercentage": 15,
     "weight": 4.2,
     "imageID": "EN002",
@@ -52,7 +52,7 @@
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341455/GJLR-205_Y2_esdgg4.jpg",
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341459/GJLR-205_Y3_jjn78r.jpg"
     ],
-    "price": 900,
+    "price": 9000,
     "discountPercentage": 5,
     "weight": 2.8,
     "imageID": "SE003",
@@ -72,7 +72,7 @@
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341580/GJPO-092_R2_sn6uyk.jpg",
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341593/GJPO-092_R3_pizhts.jpg"
     ],
-    "price": 1200,
+    "price": 12700,
     "discountPercentage": 20,
     "weight": 15,
     "imageID": "GB004",
@@ -92,7 +92,7 @@
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 1500,
+    "price": 15099,
     "discountPercentage": 12,
     "weight": 3,
     "imageID": "RE005",
@@ -112,7 +112,7 @@
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 800,
+    "price": 8000,
     "discountPercentage": 8,
     "weight": 4,
     "imageID": "AR006",
@@ -132,7 +132,7 @@
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 1100,
+    "price": 11000,
     "discountPercentage": 10,
     "weight": 5.5,
     "imageID": "PN007",
@@ -152,7 +152,7 @@
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 950,
+    "price": 95000,
     "discountPercentage": 15,
     "weight": 6,
     "imageID": "TB008",
@@ -172,7 +172,7 @@
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 700,
+    "price": 11700,
     "discountPercentage": 5,
     "weight": 2.5,
     "imageID": "GE009",
@@ -192,7 +192,7 @@
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 1300,
+    "price": 13000,
     "discountPercentage": 12,
     "weight": 4.8,
     "imageID": "AR010",
@@ -212,7 +212,7 @@
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 1600,
+    "price": 16090,
     "discountPercentage": 18,
     "weight": 3.8,
     "imageID": "ON011",
@@ -232,7 +232,7 @@
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
         "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
     ],
-    "price": 850,
+    "price": 8050,
     "discountPercentage": 10,
     "weight": 2.7,
     "imageID": "CE012",
@@ -252,7 +252,7 @@
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341455/GJLR-205_Y2_esdgg4.jpg",
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341459/GJLR-205_Y3_jjn78r.jpg"
     ],
-    "price": 1000,
+    "price": 10000,
     "discountPercentage": 15,
     "weight": 8.5,
     "imageID": "RB013",
@@ -272,7 +272,7 @@
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341455/GJLR-205_Y2_esdgg4.jpg",
       "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341459/GJLR-205_Y3_jjn78r.jpg"
     ],
-    "price": 600,
+    "price": 6000,
     "discountPercentage": 7,
     "weight": 3.2,
     "imageID": "TR014",
