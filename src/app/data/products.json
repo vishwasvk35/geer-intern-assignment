@@ -1,0 +1,322 @@
+[
+  {
+    "name": "Diamond Solitaire Ring",
+    "imageUrl": [
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341073/GJPO-059_Y1_cnq51p.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341112/GJPO-059_Y1_tdfqxl.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341148/GJPO-059_Y2_gtc9kv.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341177/GJPO-059_W1_vfoinp.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341190/GJPO-059_W2_lv4l0r.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341201/GJPO-059_W3_siflht.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341213/GJPO-059_R1_lalckc.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341234/GJPO-059_R2_kkwqp1.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341239/GJPO-059_R3_y5hyho.jpg"
+    ],
+    "price": 2500,
+    "discountPercentage": 10,
+    "weight": 3.5,
+    "imageID": "DR001",
+    "shape": "Round",
+    "category": "Rings"
+  },
+  {
+    "name": "Emerald Pendant Necklace",
+    "imageUrl": [
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341266/GJLR-212_Y1_a7icmu.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341277/GJLR-212_Y2_memifx.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341296/GJLR-212_Y3_lfyjdq.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341307/GJLR-212_W1_q7pogs.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341316/GJLR-212_W2_ilukdv.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341326/GJLR-212_W3_q4eyhv.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341335/GJLR-212_R1_xivmj9.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341344/GJLR-212_R2_dk3bal.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341350/GJLR-212_R3_fxic38.jpg"
+    ],
+    "price": 1800,
+    "discountPercentage": 15,
+    "weight": 4.2,
+    "imageID": "EN002",
+    "shape": "Oval",
+    "category": "Necklaces"
+  },
+  {
+    "name": "Sapphire Stud Earrings",
+    "imageUrl": [
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341369/GJLR-205_R1_mjgfeo.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341377/GJLR-205_R2_ohm2qt.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341382/GJLR-205_R3_c9wecq.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341410/GJLR-205_W1_zozkxh.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341420/GJLR-205_W2_xgoomy.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341438/GJLR-205_W3_xovrub.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341445/GJLR-205_Y1_aamho4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341455/GJLR-205_Y2_esdgg4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341459/GJLR-205_Y3_jjn78r.jpg"
+    ],
+    "price": 900,
+    "discountPercentage": 5,
+    "weight": 2.8,
+    "imageID": "SE003",
+    "shape": "Cushion",
+    "category": "Earrings"
+  },
+  {
+    "name": "Gold Bangle Bracelet",
+    "imageUrl": [
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341515/GJPO-092_Y2_ctzxpj.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341525/GJPO-092_Y2_mqh2b2.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341534/GJPO-092_Y3_ddjovs.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341544/GJPO-092_W1_d1w22v.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341554/GJPO-092_W2_ar1vh8.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341563/GJPO-092_W3_uypwzd.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341572/GJPO-092_R1_ce7gsw.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341580/GJPO-092_R2_sn6uyk.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341593/GJPO-092_R3_pizhts.jpg"
+    ],
+    "price": 1200,
+    "discountPercentage": 20,
+    "weight": 15,
+    "imageID": "GB004",
+    "shape": "Round",
+    "category": "Bracelets"
+  },
+  {
+    "name": "Ruby Drop Earrings",
+    "imageUrl": [
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 1500,
+    "discountPercentage": 12,
+    "weight": 3,
+    "imageID": "RE005",
+    "shape": "Pear",
+    "category": "Earrings"
+  },
+  {
+    "name": "Amethyst Cocktail Ring",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 800,
+    "discountPercentage": 8,
+    "weight": 4,
+    "imageID": "AR006",
+    "shape": "Emerald",
+    "category": "Rings"
+  },
+  {
+    "name": "Pearl Strand Necklace",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 1100,
+    "discountPercentage": 10,
+    "weight": 5.5,
+    "imageID": "PN007",
+    "shape": "Round",
+    "category": "Necklaces"
+  },
+  {
+    "name": "Topaz Tennis Bracelet",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 950,
+    "discountPercentage": 15,
+    "weight": 6,
+    "imageID": "TB008",
+    "shape": "Round",
+    "category": "Bracelets"
+  },
+  {
+    "name": "Garnet Hoop Earrings",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 700,
+    "discountPercentage": 5,
+    "weight": 2.5,
+    "imageID": "GE009",
+    "shape": "Round",
+    "category": "Earrings"
+  },
+  {
+    "name": "Aquamarine Statement Ring",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 1300,
+    "discountPercentage": 12,
+    "weight": 4.8,
+    "imageID": "AR010",
+    "shape": "Cushion",
+    "category": "Rings"
+  },
+  {
+    "name": "Opal Choker Necklace",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 1600,
+    "discountPercentage": 18,
+    "weight": 3.8,
+    "imageID": "ON011",
+    "shape": "Oval",
+    "category": "Necklaces"
+  },
+  {
+    "name": "Citrine Drop Earrings",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 850,
+    "discountPercentage": 10,
+    "weight": 2.7,
+    "imageID": "CE012",
+    "shape": "Pear",
+    "category": "Earrings"
+  },
+  {
+    "name": "Rose Gold Charm Bracelet",
+    "imageUrl": [
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341369/GJLR-205_R1_mjgfeo.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341377/GJLR-205_R2_ohm2qt.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341382/GJLR-205_R3_c9wecq.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341410/GJLR-205_W1_zozkxh.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341420/GJLR-205_W2_xgoomy.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341438/GJLR-205_W3_xovrub.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341445/GJLR-205_Y1_aamho4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341455/GJLR-205_Y2_esdgg4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341459/GJLR-205_Y3_jjn78r.jpg"
+    ],
+    "price": 1000,
+    "discountPercentage": 15,
+    "weight": 8.5,
+    "imageID": "RB013",
+    "shape": "Round",
+    "category": "Bracelets"
+  },
+  {
+    "name": "Turquoise Band Ring",
+    "imageUrl": [
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341369/GJLR-205_R1_mjgfeo.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341377/GJLR-205_R2_ohm2qt.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341382/GJLR-205_R3_c9wecq.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341410/GJLR-205_W1_zozkxh.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341420/GJLR-205_W2_xgoomy.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341438/GJLR-205_W3_xovrub.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341445/GJLR-205_Y1_aamho4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341455/GJLR-205_Y2_esdgg4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341459/GJLR-205_Y3_jjn78r.jpg"
+    ],
+    "price": 600,
+    "discountPercentage": 7,
+    "weight": 3.2,
+    "imageID": "TR014",
+    "shape": "Oval",
+    "category": "Rings"
+  },
+  {
+    "name": "new ring",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341369/GJLR-205_R1_mjgfeo.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341377/GJLR-205_R2_ohm2qt.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341382/GJLR-205_R3_c9wecq.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341410/GJLR-205_W1_zozkxh.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341420/GJLR-205_W2_xgoomy.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341438/GJLR-205_W3_xovrub.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341445/GJLR-205_Y1_aamho4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341455/GJLR-205_Y2_esdgg4.jpg",
+      "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341459/GJLR-205_Y3_jjn78r.jpg"
+    ],
+    "price": 340000,
+    "discountPercentage": 7,
+    "weight": 5.6,
+    "imageID": "N001",
+    "shape": "Pear",
+    "category": "Necklaces"
+  },
+  {
+    "name": "premium ring",
+    "imageUrl": [
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341672/GJPO-052_R3_zo5mbx.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341667/GJPO-052_R2_by08cv.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341658/GJPO-052_R1_v7gsys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341649/GJPO-052_W3_bfbxv6.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341640/GJPO-052_W2_drmyn9.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341630/GJPO-052_W1_tg3eys.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341621/GJPO-052_Y3_nivg2r.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341612/GJPO-052_Y2_bcjkar.jpg",
+        "https://res.cloudinary.com/dcpwog1ci/image/upload/v1750341603/GJPO-052_Y1_lvsnhp.jpg"
+    ],
+    "price": 21000,
+    "discountPercentage": 4,
+    "weight": 4.5,
+    "imageID": "E003",
+    "shape": "Oval",
+    "category": "Earrings"
+  }
+]

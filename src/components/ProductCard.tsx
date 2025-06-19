@@ -27,13 +27,14 @@ export default function ProductCard({ product }: ProductCardProps) {
               {product.discountPercentage}% OFF
             </div>
           )}
-          <Image
-            src={product.imageUrl[2]}
-            alt={product.name}
-            width={300}
-            height={300}
-            className="w-full h-48 object-cover"
-          />
+          <div className="relative w-full aspect-square">
+            <Image
+              src={product.imageUrl[2]}
+              alt={product.name}
+              fill
+              className="object-cover"
+            />
+          </div>
           <button className="absolute top-2 right-2 text-gray-600 hover:text-red-500">
             <Heart size={20} />
           </button>
