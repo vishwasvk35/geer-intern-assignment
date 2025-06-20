@@ -2,13 +2,12 @@
 
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star, Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
-import Image from 'next/image';
 import Link from 'next/link';
+
 
 const JewelryHomepage = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
-  // Hero images - using placeholder jewelry images
   const heroImages = [
     {
       url: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80",
@@ -42,7 +41,6 @@ const JewelryHomepage = () => {
     }
   ];
 
-  // Auto-rotate images every 5 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prev) => (prev + 1) % heroImages.length);
@@ -59,12 +57,9 @@ const JewelryHomepage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white">
-      {/* Header */}
-
+    <div className="w-full bg-white">
       {/* Hero Section */}
-      <section className="relative h-[80vh] overflow-hidden">
-        {/* Image Container */}
+      <section className="relative h-[60vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden w-full">
         <div className="relative w-full h-full">
           {heroImages.map((image, index) => (
             <div
@@ -78,16 +73,16 @@ const JewelryHomepage = () => {
                 alt={image.title}
                 className="w-full h-full object-cover"
               />
-              {/* Overlay */}
-              {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
               
-              {/* Content */}
-              <div className="absolute inset-0 flex items-center justify-center text-center">
-                <div className="max-w-4xl px-4">
-                  <h2 className="w-4-xl p-10 bg-white text-black text-5xl md:text-7xl font-bold mb-4 tracking-tight">
+              {/* Hero Content */}
+              <div className="absolute inset-0 flex items-center justify-center text-center px-4">
+                <div >
+                  <h2 className="bg-white text-black text-2xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 lg:mb-6 tracking-tight px-4 py-2 sm:px-6 sm:py-4 lg:px-10 lg:py-6 rounded-lg shadow-lg">
                     {image.title}
                   </h2>
-                  <Link  className='bg-white text-black px-8 py-3 text-lg font-semibold hover:bg-gray-100 transition-colors transform hover:scale-105 duration-200' href='/products'>Shop Now</Link>
+                  <Link href='/products' className='bg-white text-black px-4 py-2 sm:px-6 sm:py-3 lg:px-8 lg:py-3 text-sm sm:text-base lg:text-lg  font-semibold w-50 hover:bg-gray-100 transition-colors transform hover:scale-105 duration-200 rounded shadow-lg'>
+                    Shop Now
+                  </Link>
                 </div>
               </div>
             </div>
@@ -97,24 +92,24 @@ const JewelryHomepage = () => {
         {/* Navigation Arrows */}
         <button
           onClick={prevImage}
-          className="absolute left-6 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-2 rounded-full transition-all duration-200"
+          className="absolute left-2 sm:left-4 lg:left-6 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-1.5 sm:p-2 rounded-full transition-all duration-200"
         >
-          <ChevronLeft className="h-6 w-6 text-black" />
+          <ChevronLeft className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-black" />
         </button>
         <button
           onClick={nextImage}
-          className="absolute right-6 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-2 rounded-full transition-all duration-200"
+          className="absolute right-2 sm:right-4 lg:right-6 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-20 hover:bg-opacity-30 text-white p-1.5 sm:p-2 rounded-full transition-all duration-200"
         >
-          <ChevronRight className="h-6 w-6 text-black" />
+          <ChevronRight className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-black" />
         </button>
 
         {/* Dots Indicator */}
-        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        <div className="absolute bottom-4 sm:bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">
           {heroImages.map((_, index) => (
             <button
               key={index}
               onClick={() => setCurrentImage(index)}
-              className={`w-3 h-3 roundeed-full transition-all duration-200 ${
+              className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-all duration-200 ${
                 index === currentImage ? 'bg-white' : 'bg-white bg-opacity-50'
               }`}
             />
@@ -122,26 +117,28 @@ const JewelryHomepage = () => {
         </div>
       </section>
 
-      {/* Explore Products Button */}
-      <section className="py-16 bg-gray-50">
+      {/* CTA Section */}
+      <section className="py-8 sm:py-12 lg:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h3 className="text-3xl font-bold text-gray-900 mb-4">
+          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">
             Discover Our Complete Collection
           </h3>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-lg text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
             From timeless classics to contemporary designs, explore our carefully curated selection of fine jewelry
           </p>
-          <Link  className='bg-black text-white px-8 py-3 text-lg font-semibold transition-colors transform hover:scale-105 duration-200' href='/products'>Explore All Products</Link>
+          <Link href='/products' className='bg-black text-white px-6 py-2.5 sm:px-8 sm:py-3 text-sm sm:text-base lg:text-lg font-semibold transition-colors transform hover:scale-105 duration-200 rounded'>
+            Explore All Products
+          </Link >
         </div>
       </section>
 
-      {/* Featured Categories */}
-      <section className="py-16">
+      {/* Categories Section */}
+      <section className="py-8 sm:py-12 lg:py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
+          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-gray-900 mb-8 sm:mb-12">
             Shop by Category
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
                 title: "Rings",
@@ -160,30 +157,28 @@ const JewelryHomepage = () => {
               }
             ].map((category, index) => (
               <div key={index} className="group cursor-pointer">
-                <div className="relative overflow-hidden rounded-lg mb-4 h-130">
-                  <Image
+                <div className="relative overflow-hidden rounded-lg mb-3 sm:mb-4 h-48 sm:h-56 lg:h-64">
+                  <img
                     src={category.image}
                     alt={category.title}
-                    fill
-                    className="object-cover"
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  {/* <div className="absolute inset-0 bg-black bg-opacity-20 group-hover:bg-opacity-30 transition-all"></div> */}
                 </div>
-                <h4 className="text-xl font-semibold text-gray-900 mb-2">{category.title}</h4>
-                <p className="text-gray-600">{category.description}</p>
+                <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-1 sm:mb-2">{category.title}</h4>
+                <p className="text-sm sm:text-base text-gray-600">{category.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-16 bg-gray-50">
+      {/* Testimonials Section */}
+      <section className="py-8 sm:py-12 lg:py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h3 className="text-3xl font-bold text-center text-gray-900 mb-12">
+          <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center text-gray-900 mb-8 sm:mb-12">
             What Our Customers Say
           </h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {[
               {
                 name: "Sarah Johnson",
@@ -201,14 +196,14 @@ const JewelryHomepage = () => {
                 review: "Perfect jewelry for special occasions. The customer service is outstanding."
               }
             ].map((testimonial, index) => (
-              <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                <div className="flex mb-4">
+              <div key={index} className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
+                <div className="flex mb-3 sm:mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
+                    <Star key={i} className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-400 fill-current" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-4">"{testimonial.review}"</p>
-                <p className="font-semibold text-gray-900">- {testimonial.name}</p>
+                <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">"{testimonial.review}"</p>
+                <p className="text-sm sm:text-base font-semibold text-gray-900">- {testimonial.name}</p>
               </div>
             ))}
           </div>
@@ -217,12 +212,13 @@ const JewelryHomepage = () => {
 
       {/* Footer */}
       <footer className="bg-black text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {/* Company Info */}
-            <div>
-              <h4 className="text-2xl font-bold mb-4">LuxeJewels</h4>
-              <p className="text-gray-300 mb-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+            
+            {/* Brand Section */}
+            <div className="sm:col-span-2 lg:col-span-1">
+              <h4 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">LuxeJewels</h4>
+              <p className="text-sm sm:text-base text-gray-300 mb-4">
                 Creating timeless pieces that celebrate life's precious moments since 1985.
               </p>
               <div className="flex space-x-4">
@@ -235,8 +231,8 @@ const JewelryHomepage = () => {
 
             {/* Quick Links */}
             <div>
-              <h5 className="font-semibold mb-4">Quick Links</h5>
-              <ul className="space-y-2 text-gray-300">
+              <h5 className="text-sm sm:text-base font-semibold mb-3 sm:mb-4">Quick Links</h5>
+              <ul className="space-y-2 text-sm sm:text-base text-gray-300">
                 <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Collections</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Custom Design</a></li>
@@ -247,8 +243,8 @@ const JewelryHomepage = () => {
 
             {/* Customer Service */}
             <div>
-              <h5 className="font-semibold mb-4">Customer Service</h5>
-              <ul className="space-y-2 text-gray-300">
+              <h5 className="text-sm sm:text-base font-semibold mb-3 sm:mb-4">Customer Service</h5>
+              <ul className="space-y-2 text-sm sm:text-base text-gray-300">
                 <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Shipping Info</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Returns & Exchanges</a></li>
@@ -257,35 +253,35 @@ const JewelryHomepage = () => {
               </ul>
             </div>
 
-            {/* Contact Info */}
+            {/* Contact Information */}
             <div>
-              <h5 className="font-semibold mb-4">Contact Information</h5>
-              <div className="space-y-3 text-gray-300">
+              <h5 className="text-sm sm:text-base font-semibold mb-3 sm:mb-4">Contact Information</h5>
+              <div className="space-y-3 text-sm sm:text-base text-gray-300">
                 <div className="flex items-center">
-                  <Phone className="h-4 w-4 mr-3" />
+                  <Phone className="h-4 w-4 mr-3 flex-shrink-0" />
                   <span>+91 9834729399</span>
                 </div>
                 <div className="flex items-center">
-                  <Mail className="h-4 w-4 mr-3" />
-                  <span>info@luxejewels.com</span>
+                  <Mail className="h-4 w-4 mr-3 flex-shrink-0" />
+                  <span className="break-all">info@luxejewels.com</span>
                 </div>
                 <div className="flex items-start">
-                  <MapPin className="h-4 w-4 mr-3 mt-1" />
+                  <MapPin className="h-4 w-4 mr-3 mt-1 flex-shrink-0" />
                   <span>123 Jewelry District<br />Jaipur, Rajasthan, India</span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Bottom Bar */}
-          <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm">
+          {/* Footer Bottom */}
+          <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
+            <p className="text-gray-400 text-xs sm:text-sm text-center sm:text-left">
               © 2025. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
+            <div className="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-6">
+              <a href="#" className="text-gray-400 hover:text-white text-xs sm:text-sm transition-colors">Privacy Policy</a>
+              <a href="#" className="text-gray-400 hover:text-white text-xs sm:text-sm transition-colors">Terms of Service</a>
+              <a href="#" className="text-gray-400 hover:text-white text-xs sm:text-sm transition-colors">Cookie Policy</a>
             </div>
           </div>
         </div>
