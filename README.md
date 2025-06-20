@@ -1,6 +1,6 @@
 # Jewelry Website (geer.in)
 
-visit the website: [https://geer-intern-assignment-h8ld-7d25ix0e8-vishwasvk35s-projects.vercel.app/](https://geer-intern-assignment-h8ld-7d25ix0e8-vishwasvk35s-projects.vercel.app/)
+visit the website: [https://geer-intern-assignment-h8ld-7d25ix0e8-vishwasvk35s-projects.vercel.app/](https://geer-intern-assignment-h8ld.vercel.app/)
 
 A modern, responsive jewelry e-commerce website built with Next.js and React. Features an elegant homepage with image carousel, product categories, customer testimonials, and a fully responsive navigation system.
 
