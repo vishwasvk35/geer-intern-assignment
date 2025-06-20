@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jewelry Website (geer.in)
 
-## Getting Started
+A modern, responsive jewelry e-commerce website built with Next.js and React. Features an elegant homepage with image carousel, product categories, customer testimonials, and a fully responsive navigation system.
 
-First, run the development server:
+## 🚀 How to Run the Project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
+- Node.js (version 16 or higher)
+- npm or yarn package manager
+- Git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/vishwasvk35/geer-intern-assignment.git
+   cd geer-intern-assignment
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-## Learn More
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the website.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Frontend Framework
+- **Next.js 14+** - React framework with App Router
+- **React 18+** - UI library with hooks
+- **TypeScript** - Type-safe JavaScript
 
-## Deploy on Vercel
+### Styling & UI
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Reusable component library
+- **Lucide React** - Modern icon library
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### External Services
+- **Unsplash API** - Product and hero images
+- **Cloudinary** - Image optimization and delivery
+- **Google Fonts** - Typography (Dancing Script)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 Notes and Assumptions
+
+### Image Assets
+- Hero images sourced from Unsplash (free stock photos)
+- Product images from Cloudinary CDN
+- Images are optimized for different screen sizes and pixel densities
+
+### State Management
+- Local component state using React hooks
+- No external state management library (Redux, Zustand) needed for current scope
+- Context API can be added for global state if needed
+
+### API Endpoints (Assumed)
+- `/api/products` - Product listing
+- `/api/categories` - Category listing
+- `/api/products/[id]` - Product details
+
+### Future Enhancements
+- Shopping cart functionality
+- User authentication
+- Product search and filtering
+- Payment integration
+- Admin dashboard
+- Product reviews and ratings
+- Wishlist functionality
+
+## 🐛 Known Issues
+
+- Hero image carousel may briefly show loading state on initial load
+- Some images may take time to load on slower connections
