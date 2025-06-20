@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { notFound } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -9,11 +9,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Input } from '@/components/ui/input';
 import Image from 'next/image';
 import { Product } from '@/lib/types';
-import { useState, useEffect } from 'react';
 
-export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
-  const id = (await params).id
-
+// Remove async from the main component
+export default function ProductPage({ params }: { params: Promise<{ id: string }> }) {
+  const [id, setId] = useState<string>('');
   const [product, setProduct] = useState<Product | null>(null);
   const [metalQuality, setMetalQuality] = useState('18K');
   const [diamondQuality, setDiamondQuality] = useState('VVS-EF');
@@ -21,28 +20,60 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   const [engraving, setEngraving] = useState('');
   const [selectedImage, setSelectedImage] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
+  // Handle params resolution
   useEffect(() => {
+    async function resolveParams() {
+      try {
+        const resolvedParams = await params;
+        setId(resolvedParams.id);
+      } catch (err) {
+        setError(true);
+        setLoading(false);
+      }
+    }
+    resolveParams();
+  }, [params]);
+
+  // Fetch product data
+  useEffect(() => {
+    if (!id) return;
+
     async function fetchProduct() {
       try {
+        setLoading(true);
         const res = await fetch(`/api/products/${id}`);
-        if (!res.ok) throw new Error('Product not found');
+        
+        if (!res.ok) {
+          setError(true);
+          setLoading(false);
+          return;
+        }
+        
         const data = await res.json();
         setProduct(data);
         setLoading(false);
-      } catch (error) {
-        notFound();
+      } catch (err) {
+        setError(true);
+        setLoading(false);
       }
     }
+    
     fetchProduct();
   }, [id]);
 
   if (loading) {
-    return <div className="flex justify-center items-center h-screen">Loading...</div>;
+    return (
+      <div className="flex justify-center items-center h-screen">
+        <div className="text-lg">Loading...</div>
+      </div>
+    );
   }
 
-  if (!product) {
-    return notFound();
+  if (error || !product) {
+    notFound();
+    return null;
   }
 
   const discountedPrice = product.price * (1 - product.discountPercentage / 100);
@@ -144,7 +175,6 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                     <SelectItem value="6">6</SelectItem>
                     <SelectItem value="7">7</SelectItem>
                     <SelectItem value="8">8</SelectItem>
-                    {/* Add more sizes as needed */}
                   </SelectContent>
                 </Select>
               </div>
