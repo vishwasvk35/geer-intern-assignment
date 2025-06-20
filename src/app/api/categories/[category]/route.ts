@@ -1,13 +1,19 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+import { NextRequest, NextResponse } from 'next/server';
 import { getProductsByCategory } from '@/lib/products';
 import { Product } from '@/lib/types';
 
-export default function handler(req: NextApiRequest, res: NextApiResponse<Product[] | { message: string }>) {
-  const { category } = req.query;
-  if (req.method === 'GET') {
-    const products = getProductsByCategory(category as string);
-    res.status(200).json(products);
-  } else {
-    res.status(405).json({ message: 'Method not allowed' });
+export async function GET(req: NextRequest) {
+  const { searchParams } = new URL(req.url);
+  const category = searchParams.get('category');
+
+  if (!category) {
+    return NextResponse.json({ message: 'Invalid category' }, { status: 400 });
+  }
+
+  try {
+    const products = await getProductsByCategory(category);
+    return NextResponse.json(products, { status: 200 });
+  } catch (error) {
+    return NextResponse.json({ message: 'Internal server error' }, { status: 500 });
   }
 }

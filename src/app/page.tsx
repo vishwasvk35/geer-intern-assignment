@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, Star, Phone, Mail, MapPin, Facebook, Instagram, Twitter, Youtube } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 const JewelryHomepage = () => {
@@ -46,7 +47,7 @@ const JewelryHomepage = () => {
       setCurrentImage((prev) => (prev + 1) % heroImages.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [heroImages.length]);
 
   const nextImage = () => {
     setCurrentImage((prev) => (prev + 1) % heroImages.length);
@@ -68,10 +69,13 @@ const JewelryHomepage = () => {
                 index === currentImage ? 'opacity-100' : 'opacity-0'
               }`}
             >
-              <img
+              <Image
                 src={image.url}
                 alt={image.title}
+                fill
                 className="w-full h-full object-cover"
+                style={{ objectFit: 'cover' }}
+                priority={index === 0}
               />
               
               {/* Hero Content */}
@@ -158,10 +162,12 @@ const JewelryHomepage = () => {
             ].map((category, index) => (
               <div key={index} className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-lg mb-3 sm:mb-4 h-48 sm:h-56 lg:h-64">
-                  <img
+                  <Image
                     src={category.image}
                     alt={category.title}
+                    fill
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    style={{ objectFit: 'cover' }}
                   />
                 </div>
                 <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-1 sm:mb-2">{category.title}</h4>
@@ -202,7 +208,7 @@ const JewelryHomepage = () => {
                     <Star key={i} className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-400 fill-current" />
                   ))}
                 </div>
-                <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">"{testimonial.review}"</p>
+                <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">&quot;{testimonial.review}&quot;</p>
                 <p className="text-sm sm:text-base font-semibold text-gray-900">- {testimonial.name}</p>
               </div>
             ))}
@@ -219,7 +225,7 @@ const JewelryHomepage = () => {
             <div className="sm:col-span-2 lg:col-span-1">
               <h4 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4">LuxeJewels</h4>
               <p className="text-sm sm:text-base text-gray-300 mb-4">
-                Creating timeless pieces that celebrate life's precious moments since 1985.
+                Creating timeless pieces that celebrate life&apos;s precious moments since 1985.
               </p>
               <div className="flex space-x-4">
                 <Facebook className="h-5 w-5 text-gray-300 hover:text-white cursor-pointer transition-colors" />

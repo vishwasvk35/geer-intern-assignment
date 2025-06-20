@@ -318,5 +318,10 @@
     "imageID": "E003",
     "shape": "Oval",
     "category": "Earrings"
+  },
+  {
+    "rules": {
+      "no-unused-vars": "off"
+    }
   }
 ]

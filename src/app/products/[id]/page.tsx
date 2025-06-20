@@ -11,8 +11,8 @@ import Image from 'next/image';
 import { Product } from '@/lib/types';
 import { useState, useEffect } from 'react';
 
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const resolvedParams : { id: string} = React.use(params);
+export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
+  const id = (await params).id
 
   const [product, setProduct] = useState<Product | null>(null);
   const [metalQuality, setMetalQuality] = useState('18K');
@@ -25,7 +25,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   useEffect(() => {
     async function fetchProduct() {
       try {
-        const res = await fetch(`/api/products/${resolvedParams.id}`);
+        const res = await fetch(`/api/products/${id}`);
         if (!res.ok) throw new Error('Product not found');
         const data = await res.json();
         setProduct(data);
@@ -35,7 +35,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
       }
     }
     fetchProduct();
-  }, [resolvedParams.id]);
+  }, [id]);
 
   if (loading) {
     return <div className="flex justify-center items-center h-screen">Loading...</div>;

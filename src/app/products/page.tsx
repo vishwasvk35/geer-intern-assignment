@@ -12,7 +12,6 @@ import { Input } from '@/components/ui/input';
 import { Dialog } from '@headlessui/react';
 
 export default function ProductsPage() {
-  const [products, setProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [shapes, setShapes] = useState<string[]>([]);
@@ -32,8 +31,7 @@ export default function ProductsPage() {
         const res = await fetch('/api/products');
         if (!res.ok) throw new Error('Failed to fetch products');
         const data: Product[] = await res.json();
-        setProducts(data);
-        // Derive unique categories and shapes
+        
         const uniqueCategories = ['All', ...new Set(data.map((p) => p.category))];
         const uniqueShapes = ['All', ...new Set(data.map((p) => p.shape))];
         setCategories(uniqueCategories);
